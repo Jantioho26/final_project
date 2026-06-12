@@ -364,6 +364,8 @@ header .row {
 
 .feature__img--wrapper {
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
     border: 1px solid #e5e7eb;
     border-radius: 500px;
@@ -382,10 +384,14 @@ header .row {
 .feature__para {
     margin-top: 16px;
     font-size: 16px; 
-    max-width: calc(634px / 3);
+    max-width: calc(643 / 3);
     color: rgb(124, 129, 161);
     line-height: 2;
     font-weight: 500;
+}
+
+#text {
+    flex-wrap: wrap;
 }
 
 .features__blob {
