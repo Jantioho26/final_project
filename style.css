@@ -530,11 +530,11 @@ header .row {
 .steps__grid {
     position: absolute;
     bottom: -100px;
-    left:50%
+    left: 50%
     transform: translateX(-50%);
     width: 10rem;
     height: 10rem;
-    opactiy: 0.8;
+    opacity: 0.8;
     z-index: -10;
     color: rgb(100, 21, 255);
     fill: currentColor;
