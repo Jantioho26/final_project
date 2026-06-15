@@ -530,7 +530,7 @@ header .row {
 .steps__grid {
     position: absolute;
     bottom: -100px;
-    left: 50%
+    left: 50%;
     transform: translateX(-50%);
     width: 10rem;
     height: 10rem;
@@ -649,7 +649,7 @@ header .row {
     background-color: rgb(255 255 255);
     padding-left: 2rem;
     padding-right: 2rem;
-    margin-right: 
+    margin-right: 0;
     padding-top: 0.5rem;
     text-align: center;
     color: rgb(26 32 44);
@@ -758,17 +758,17 @@ header .row {
     color: #f7fafc;
     background: linear-gradient(
         115deg, 
-        rgb(56 178 172) 0%
-        rgb(129 230 217) 100%
+        rgb(56, 178, 172) 0%,
+        rgb(129, 230, 217) 100%
     );
 }
 
-.plan:nth-child(2) .plan_-button {
+.plan:nth-child(2) .plan__button {
     color: #6415ff;
     background-color: #f7fafc;
 }
 
-.plan:nth-child(2) .plan__stripes {
+.plan:nth-child(2) .plan__stripe {
     visibility: none;
 }
 
@@ -778,7 +778,7 @@ header .row {
     background: linear-gradient(
         115deg, 
         rgb(245, 101, 101) 0%, 
-        rgb(2554, 178, 178) 100%
+        rgb(254, 178, 178) 100%
             );
 }
 
