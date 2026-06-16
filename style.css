@@ -853,16 +853,15 @@ section #testimonials {
 }
  
 
-
-.testimonials__img,
-.testimonial__description {
+.testimonials__img {
     width: 50%;
 }
 
-.testimonials__description {
-    display: flex;
+.testimonial__img {
+    width: 80px; 
+    height: 80px;
+    border-radius: 50%;
 }
-
 #testimonials .section__title {
     margin-bottom: 24px;
     line-height: 1.25px;
@@ -908,7 +907,7 @@ section #testimonials {
 
 .testimonial__profile {
     display: flex;
-    align-items: center;
+    align-items: center; 
 }
 
 .testimonial__details {
