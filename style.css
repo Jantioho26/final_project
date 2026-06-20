@@ -446,22 +446,19 @@ header .row {
     display: flex;
 }
 
-.quality__grid {
-    transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);
-    width: 80px;
-    height:80px;
-    position: absolute;
-    right: 0px;
-    bottom:0px;
-    fill: rgb(100, 21, 255);
-    --tw-text-opacity: 1;
-    color: rgba(100, 21, 255, var(--tw-text-opacity));
-    z-index: 0;
-    display: block;
+.quality__dots { 
+  position: absolute;
+  right: -40px;
+  bottom: -40px;
+  width: 120px;
+  z-index: 1;
 }
 
 .quality__img {
-    z-index: 1;
+   width: 100%;
+   display: block;
+   position: relative;
+   z-index: 2;
 }
 
 
@@ -1424,6 +1421,49 @@ footer {
     .features {
         justify-content: center;
     }
+
+ .row {
+    flex-direction: column;
+    align-items: center;
+ }   
+
+ .start__container {
+    flex-direction: column;
+    text-align: center;
+    padding: 48px 24px;
+    overflow: hidden;
+ }
+ 
+ .start__title {
+    width: 100%; 
+    font-size: 28px;
+    line-height: 1.4;
+ }
+
+ .start__buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+ }
+
+ .container {
+    padding: 0 24px;
+ }
+
+ h1,
+ h2 {
+    text-align: center
+ }
+
+ p {
+    text-align: center;
+ }
+
+ img {
+    max-width: 100%;
+ }
+
+
 .feature {
     width: auto;
     max-width: 384px;
@@ -1698,4 +1738,3 @@ main {
 
 
 
-}
