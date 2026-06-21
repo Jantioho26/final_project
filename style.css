@@ -1536,6 +1536,10 @@ value:nth-of-type(1) {
     padding-left: 0;
 }
 
+.section__title {
+    text-align: center;
+}
+
 .footer__columns {
     justify-content: flex-start;
 }
@@ -1562,9 +1566,6 @@ value:nth-of-type(1) {
    }
 }
 
-.testimonials__subtitle {
-    text-align: center;
-}
 
 
 @mdeia (max-width: 640px) {
@@ -1689,6 +1690,15 @@ value:nth-of-type(1) {
 .testimonial__button {
     margin-top: 32px;
 }
+  .testimonials__title {
+    font-size: 32px;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .testimonials__subtitle {
+    text-align: center;
+  }
 
 .start__title {
     font-size: 24px;
@@ -1709,6 +1719,7 @@ value:nth-of-type(1) {
 .start__button {
     padding: 12px 24px;
     font-size: 14px;
+    align-items: center;
 }
 
 .start__button:nth-child(2) {
