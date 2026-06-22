@@ -115,12 +115,12 @@ nav {
   height: 40px;
   width: 40px;
 }
+
 .nav__row {
-  display: flex;
+  display: flex; 
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 0 32px;
 }
 
 .nav__container {
@@ -1488,6 +1488,13 @@ footer {
     align-items: center;
  }   
 
+ .nav__row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+ }
+
  .start__container {
     flex-direction: column;
     text-align: center;
@@ -1634,7 +1641,7 @@ value:nth-of-type(1) {
 
 
 
-@mdeia (max-width: 640px) {
+@media (max-width: 640px) {
     .section__title {
         line-height: 1.25;
     }
