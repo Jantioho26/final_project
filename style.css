@@ -1339,13 +1339,12 @@ h1 {
 
 @media (max-width: 1024px) {
     .nav__links {
-        display: flex
+        display: none;
     }
 
 .btn__menu {
     display: block;
 }
-
 
 
 header .row {
