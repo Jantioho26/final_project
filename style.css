@@ -1337,6 +1337,7 @@ h1 {
     }
 }
 
+
 @media (max-width: 1024px) {
     .nav__links {
         display: none;
@@ -1478,10 +1479,10 @@ footer {
         justify-content: center;
     }
 
-    .feature {
-        width: auto;
-        max-width: 384px;
-    }
+.feature {
+     width: auto;
+       max-width: 384px;
+ }
 
  .row {
     flex-direction: column;
@@ -1528,6 +1529,11 @@ footer {
 .feature {
     width: auto;
     max-width: 384px;
+}
+
+.feature__img {
+    min-width: 24px;
+    min-height: 24px;
 }
 
 .section__para {
@@ -1642,7 +1648,6 @@ value:nth-of-type(1) {
     margin: 8px 0;
     padding-bottom: 4px;
 }
-
  
  h2 {
     text-align: center
@@ -1702,6 +1707,13 @@ value:nth-of-type(1) {
     margin-top: 4px;
     line-height: 2;
 }
+
+.feature__img {
+    width: 24px;
+    height: 24px;
+}
+
+
 
 #steps .section__title {
     margin: 16px 0 0 0;
