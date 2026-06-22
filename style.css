@@ -118,7 +118,11 @@ nav {
 .nav__row {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 32px;
 }
+
 .nav__container {
   width: 100%;
   max-width: 1200px;
@@ -1478,11 +1482,6 @@ footer {
     .features {
         justify-content: center;
     }
-
-.feature {
-     width: auto;
-       max-width: 384px;
- }
 
  .row {
     flex-direction: column;
